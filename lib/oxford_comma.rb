@@ -5,6 +5,6 @@ elsif array.length == 2
   array.join(" and ")
   elsif array.length >2 
   array.join(", ")
-  array[-1].add("and ")
+  array[-1]("and ")
 end
 end
